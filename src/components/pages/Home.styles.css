@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* general font */
+.general-font {
+  font-family: "Alata", sans-serif;
+  color: rgba(112, 112, 112, 0.932);
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+/* left sidebar */
+.left-sidebar {
+  height: 100%;
+  width: 5%;
+  position: absolute;
+  /* background-color: white; */
+}
+
+.sidebar-content {
+  position: relative;
+  margin-top: 16rem;
+  margin-left: 1rem;
+  transform: rotate(-90deg);
+}
+.sidebar-content:hover {
+  /* color: black; */
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition: all 10ms ease-out;
+}
+/* top content */
+.column-top {
+  background-color: rgb(240, 240, 232);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* div */
+.top-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+}
+/* p */
+.top-context {
+  font-size: 1.6rem;
+  letter-spacing: 8px;
+  margin: 20px auto;
+}
+.main-hr {
+  border-style: none none dotted none;
+  width: 3%;
+  height: 3rem;
+  border-width: 6px;
+}
+/* bottom content */
+.column-bottom {
+  background-color: rgb(240, 240, 232);
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+}
+/* skills */
+/* column skills */
+.column-2 {
+  background-color: rgb(229, 227, 215);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+/* div skills */
+.skill-div {
+  margin-right: 4rem;
+}
+/* p */
+.skill {
+  padding-bottom: 0.9rem;
+  font-size: 1.2rem;
+}
+.skill-hr {
+  width: 40%;
+  border-top: dotted rgba(112, 112, 112);
+  border-width: 5px;
+  margin-left: 0.9rem;
+}
+/* contact me */
+.column-3 {
+  background-color: rgba(112, 112, 112);
+  color: rgb(240, 240, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact {
+  padding-top: 1.9rem;
+  font-size: 1.2rem;
+}
+.contact-hr {
+  width: 5%;
+  border-top: dotted rgb(240, 240, 232);
+  border-width: 5px;
+  margin: 0;
+}
+/* topping */
+.topping {
+  position: absolute;
+  bottom: 6rem;
+  margin-left: 8rem;
+  font-size: 12px;
+  z-index: 999;
+}
+.topping-context {
+  line-height: 3;
+}
