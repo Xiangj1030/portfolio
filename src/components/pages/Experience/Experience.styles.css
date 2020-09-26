@@ -1,0 +1,58 @@
+.Experience {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 80vh;
+  align-items: center;
+  padding: 6rem 8rem;
+}
+.Experience-study {
+  align-self: start;
+  display: grid;
+
+  height: 100%;
+  /* grid-template-rows: 2fr 1fr; */
+}
+.Experience-contact {
+  /* align-self: end; */
+  text-align: center;
+  border-top: 1.7px solid;
+  width: 160px;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.Experience-contact svg {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+.Experience-work {
+  text-align: right;
+}
+.Experience dt {
+  padding-bottom: 6px;
+}
+
+@media (max-width: 1030px) {
+  .Experience {
+    font-size: 12px;
+  }
+}
+@media (max-width: 791px) {
+  .Experience {
+    padding: 3rem 4.5rem 0 4.5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .Experience {
+    display: block;
+    padding-bottom: 6rem;
+  }
+  .Experience-work {
+    text-align: left;
+    padding-top: 4rem;
+  }
+}

@@ -5,6 +5,14 @@ body {
     sans-serif, "Alata";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* general background color */
+  background-color: rgb(240, 240, 232);
+  height: 100vh;
+  /* general font */
+  font-family: "Alata", sans-serif;
+  color: rgba(112, 112, 112, 0.932);
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 code {
